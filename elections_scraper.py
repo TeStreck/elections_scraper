@@ -59,7 +59,6 @@ def get_data_page_detail(url_page, code, name, results):
     volici = page_html.find("td", {"headers": "sa2"}).get_text()
     vydane_obalky = page_html.find("td", {"headers": "sa3"}).get_text()
     platne_hlasy = page_html.find("td", {"headers": "sa6"}).get_text()
-    csv_row = {}
     csv_row = {
         "Kód": code,
         "Obec": name,
@@ -98,8 +97,8 @@ def main():
     Hlavní funkce, ve které jsou definovány argumenty, kterými se program spouští, a také volání jednotlivých fcí
     """
     if len(sys.argv) != 3:
-        print("Less arguments")
-        exit()
+        print("Napiš dva argumenty")
+        exit(1)
     url = sys.argv[1]
     tab_municipality = get_municipalities(url)
     print("Stahuji data z vybraného url:", url)
