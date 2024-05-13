@@ -1,4 +1,4 @@
-# elections_scraper
+# ELECTIONS SCRAPER - 3.projekt PA
 program pro stahování výsledků voleb jednotlivých územních celků
 
 # Instalace knihoven
