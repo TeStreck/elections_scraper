@@ -2,7 +2,7 @@
 program pro stahování výsledků voleb jednotlivých územních celků
 
 # Instalace knihoven
-Použité knihovny jsou uloženy do soubory requirements.txt. Pro instalaci doporučuji použít nové virrtuální prostředí a s nainstalovaným manažerem spustit následovně:
+Použité knihovny jsou uloženy do soubory requirements.txt. Pro instalaci doporučuji použít nové virtuální prostředí a s nainstalovaným manažerem spustit následovně:
 ```
 $ pip3 --version                    # ověření verze manažeru
 $ pip3 install -r requirements.txt  # instalace knihoven
